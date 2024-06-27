@@ -1,5 +1,5 @@
 HELP.md
-.gradle
+.gradle/*
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
@@ -11,7 +11,7 @@ target/
 !**/src/test/**
 
 ### IntelliJ IDEA ###
-.idea
+.idea/*
 *.iws
 *.iml
 *.ipr
