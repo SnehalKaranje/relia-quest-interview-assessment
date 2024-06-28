@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "id1",
+      "name": "snehal",
+      "age": 28,
+      "salary": 3400000,
+      "profileImage": ""
+    },{
+      "id": "id2",
+      "name": "John Doe",
+      "age": 29,
+      "salary": 3500000,
+      "profileImage": ""
+    },{
+      "id": "id3",
+      "name": "test emp",
+      "age": 25,
+      "salary": 3000000,
+      "profileImage": ""
+    },{
+      "id": "id4",
+      "name": "emp 1",
+      "age": 30,
+      "salary": 4000000,
+      "profileImage": ""
+    }
+  ]
+}

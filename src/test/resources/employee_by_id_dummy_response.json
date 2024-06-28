@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "data":
+    {
+      "id": "id2",
+      "name": "Jane Doe",
+      "age": 30,
+      "salary": 4000000,
+      "profileImage": ""
+    }
+
+}

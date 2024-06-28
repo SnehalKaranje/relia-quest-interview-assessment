@@ -1,14 +1,23 @@
 package com.example.rqchallenge.employees.service;
 
 import com.example.rqchallenge.employees.payload.Employee;
-import org.springframework.stereotype.Service;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
 
-import java.util.ArrayList;
 import java.util.List;
 
-@Service
-public class EmployeeService {
-    public List<Employee> getAllEmployees() {
-        return new ArrayList<>();
-    }
+public interface EmployeeService {
+    public JsonNode getAllEmployees() throws Exception;
+
+    public JsonNode getEmployeeById(String id) throws JsonProcessingException;
+
+    public JsonNode deleteEmployee(String id) throws JsonProcessingException;
+
+    public JsonNode createEmployee(String name, int salary, int age);
+
+    public int getHighestSalaryOfEmployees();
+
+    public List<String> getTop10HighestEarningEmployeeNames();
+
+    public List<Employee> getEmployeesByNameSearch(String searchQuery);
 }

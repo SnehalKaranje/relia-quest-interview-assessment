@@ -9,5 +9,4 @@ class RqChallengeApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
